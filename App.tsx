@@ -1,14 +1,13 @@
-import React from 'react'
-import { Text, View } from 'react-native'
+import React from 'react';
+import AppNavigator from './navigation/AppNavigator';
+import { PaperProvider } from 'react-native-paper';
 
 const App = () => {
   return (
-    <View>
-      <Text>
-        App
-      </Text>
-    </View>
-  )
-}
+    <PaperProvider>
+      <AppNavigator />
+    </PaperProvider>
+  );
+};
 
-export default App
+export default App;
