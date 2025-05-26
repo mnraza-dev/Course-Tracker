@@ -5,9 +5,7 @@ import HomeScreen from '../screens/HomeScreen';
 import CourseDetailScreen from '../screens/CourseDetailScreen';
 import AddCourseScreen from '../screens/AddCourseScreen';
 import { RootStackParamList } from '../types';
-
 const Stack = createStackNavigator<RootStackParamList>();
-
 const AppNavigator = () => {
     return (
         <NavigationContainer>
@@ -19,5 +17,4 @@ const AppNavigator = () => {
         </NavigationContainer>
     );
 };
-
 export default AppNavigator;
